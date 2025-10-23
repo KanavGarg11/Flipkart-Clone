@@ -1,0 +1,390 @@
+body
+{
+    border : 0px ;
+    margin : 0px ;
+    padding : 0px ;
+    background : rgb(229, 230, 230) ;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+}
+
+.nav-bttns
+{
+    text-decoration : none ;
+    display : flex ;
+    align-items : center ;
+    color : black ;
+    font-size : 19px ;
+    gap : 5px ;
+}
+
+#navbar
+{
+    display : flex ;
+    align-items : center ;
+    background : rgb(255, 255, 255) ;
+    height : 67.2px ;
+    gap : 35px ;
+    padding-left : 31px ;
+    width : 100% ;
+}
+
+#searchbox
+{
+    width : 695px ;
+    border : none ;
+    font-size : 17.5px ;
+    background : rgb(238, 248, 255) ;
+    border-radius : 10px ;
+}
+
+#search
+{
+    display : flex ;
+
+}
+
+#search-btn
+{
+    padding : 5px ;
+    border : 1px rgb(204, 234, 254) solid ;
+    border-radius : 10px ;
+}
+
+#cart-a
+{
+    margin-left : 31px ;
+    margin-right : 10px ;
+}
+
+#categories
+{
+    display : flex ;
+    background : white ;
+    margin : 7px 17px 7px 17px ;
+    height : 127px ;
+    align-items : center ;
+    justify-content : center ;
+    gap : 35px ;
+}
+.categ-a
+{
+    display : flex ;
+    flex-direction : column ;
+    text-decoration : none ;
+    color : black ;
+    font-weight : bold ;
+    align-items : center ;
+    gap : 10px ;
+}
+
+#banner-div
+{
+    display : flex ;
+    flex-direction : column ;
+    margin : 17px ;
+    background : white ;
+}
+
+#banner-switch
+{
+    height : 24px ;
+}
+
+#smartp-deals
+{
+    margin : 0px 17px 17px 17px ;
+    display : flex ;
+    background : white ;
+    flex-direction : column ;
+    width : 1255px ;
+}
+
+#sps
+{
+    display : flex ;
+    align-items : center ;
+    justify-content : center ;
+    height : 290px ;
+    gap : 120px ;
+}
+
+.phone-name
+{
+    font-weight : 450 ;
+    margin-bottom : -5px ;
+}
+
+#dd
+{
+    background : red ;
+    height : 368px ;
+    margin-right : 17px ;
+    width : 222px ;
+    margin-top : -15px ;
+}
+
+#big-div
+{
+    display : flex ;
+    align-items : center ;
+    justify-content : center ;
+}
+
+.grid
+{
+    display : grid ;
+    grid-template-columns : 33.33% 33.33% 33.33% ;
+    grid-template-rows : 24% 38% 38% ;
+    height : 610px ;
+    width : 1486px ;
+    margin : 0px 17px 17px 17px ;
+    row-gap : 10px ;
+}
+
+.gridimg{
+    color : black ;
+}
+
+.img-in-div
+{
+    width : 100% ;
+    height : 100% ;
+    object-fit : cover ;
+}
+
+.grid-a
+{
+    height : 100% ;
+    width : 100% ;
+}
+
+.gdm
+{
+    margin : 0px 3px 0px 3px ;
+}
+
+.poster-div
+{
+    display : flex ;
+    margin : 37px 20px 17px 20px ;
+    height : 620px ;
+    width : 100% ;
+    gap : 17px ; 
+    align-items : center ;
+    /* justify-content : center ; */
+}
+
+.acc-div
+{
+    display : flex ;
+    flex-direction : column ;
+    height : 100% ;
+    width : 488px ;
+    align-items : center ;
+    justify-content : center ;
+    background : white ;
+}
+
+.flex-c
+{
+    display : flex ;
+    flex-direction : columnn ;
+    align-items : center ;
+    justify-content : center ;
+}
+
+.acc-grid-div
+{
+    display : grid ;
+    height : 528px ; ;
+    width : 100% ; ;
+    grid-template-columns : 50% 50% ;
+    grid-template-rows : 50% 50% ;
+}
+
+.flight-div
+{
+    height : 100% ;
+    width : 1000px ;
+}
+
+.sm-ac
+{
+    height : 80px ;
+    width : 100% ;
+    display : flex ;
+    align-items : center ;
+    gap : 170px ;
+    font-weight : bold ;
+    font-size : 22px ;
+    padding-left : 35px ;
+}
+
+.acc-grid-div .acc-items  img
+{
+    height : 164.4px ;
+    width : 100% ;
+    padding : 10px ;
+}
+
+.acc-items
+{
+    margin : 5px ;
+    border : 1px rgb(196, 196, 196) solid ;
+    border-radius : 5px ;
+    padding : 10px 25px 10px 10px ;
+}
+
+.acc-text
+{
+    display : flex ;
+    flex-direction : column ;
+}
+
+.acc-grid-div .acc-items a
+{
+    text-decoration : none ;
+    color : black ;
+}
+
+/* ===============================
+   Brand Directory Section
+   =============================== */
+.brand-directory-container {
+  background-color: #fff;
+  padding: 20px 25px;
+  font-family: Arial, sans-serif;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Section Title (Top Stories : Brand Directory) */
+.directory-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 20px;
+}
+
+.directory-title .light {
+  color: #878787;
+}
+
+.directory-title .dark {
+  color: #333;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+/* Individual Directory Rows */
+.directory-row {
+  font-size: 12px;
+  color: #878787;
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+
+/* Category Name (e.g., MOBILES, CLOTHING, etc.) */
+.directory-row strong {
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+/* Directory Links */
+.directory-row a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 2px;
+}
+
+/* Hover State */
+.directory-row a:hover {
+  color: #2874f0;
+  text-decoration: underline;
+}
+
+.ending-div
+{
+    display : grid ;
+    grid-template-columns : 14% 14% 14% 16% 24% 16% ;
+    grid-template-rows : 85% 15% ;
+    background : rgb(39, 38, 38) ;
+    height : 350px ;
+    width : 100% ;
+}
+
+.end-cont
+{
+    display : flex ;
+    align-items : center ;
+    padding-top : 20px ;
+    /* justify-content : center ; */
+    color : white ;
+    font-size : 13px ;
+    flex-direction : column ;
+}
+
+.end-cont a
+{
+    color : white ;
+    font-size : 13px ;
+    text-decoration : none ;
+    font-weight : bold ;
+}
+
+.sphead
+{
+    color : rgb(147, 145, 145) ;
+    font-size : 13px ;
+}
+
+.social-imgs
+{
+    display : flex ;
+    /* align-items : center ; */
+    /* justify-content : center ; */
+    padding-right : 177px ;
+    gap : 10px ;
+}
+
+#tel-no1
+{
+    color : rgb(56, 94, 218) ;
+}
+
+#tel-no2
+{
+    color : rgb(56, 94, 218) ;
+}
+
+.end-horz {
+    grid-column: 1/7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.end-h-items {
+    display: flex;
+    color: white;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none; /* remove underline */
+}
+
+.end-h-items:hover {
+    text-decoration: none;
+}
+
+.end-h-items img {
+    height: 15px;
+    width: 15px;
+}
+
+#cards {
+    width: 340px;
+    height: 20px;
+}
