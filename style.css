@@ -19,6 +19,8 @@ body
 
 #navbar
 {
+    position : fixed ;
+    top : 0px ;
     display : flex ;
     align-items : center ;
     background : rgb(255, 255, 255) ;
@@ -60,7 +62,7 @@ body
 {
     display : flex ;
     background : white ;
-    margin : 7px 17px 7px 17px ;
+    margin : 74.2px 17px 7px 17px ;
     height : 127px ;
     align-items : center ;
     justify-content : center ;
